@@ -41,4 +41,7 @@ num_ded = 1
 The following are the files that is the result of merging multiple output files:
 1. C3D1 - 12 Variants Merged Results: This file provides outputs after running 12 variants of the algorithm with 3 cobots and 1 dedicated picker. There are some columns that have been created after all the outputs were merged such as: scenario, numPicked, totalPicked, variantName, and custArrInstance.
 
-2. Benchmark Merged: This file provides outputs after running 4 benchmark resource pools (C0D1, C0D2, C0D3, and C0D4) and merging them. 
+2. Benchmark Merged: This file provides outputs after running 4 benchmark resource pools (C0D1, C0D2, C0D3, and C0D4) and merging them.
+3. C1D1 - RAS.xlsx: This file is generated after setting num_cob=1 and num_ded=1 and changing the variant to RAS
+4. C2D1 - RAS.xlsx: This file is generated after setting num_cob=2 and num_ded=1 and changing the variant to RAS
+5. C4D1 - RAS.xlsx: This file is generated after setting num_cob=4 and num_ded=1 and changing the variant to RAS 
