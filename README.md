@@ -1,7 +1,17 @@
 ## Repository for Python codes, input, and output data sets for the research: Store Fulfillment with Autonomoys Mobile Robots and In-Store Customers
 
+### Input Data
+The set of input data sets for the "Dynamic Algorithm with Simulation" file are as follows:
+1. Instacart_Aisle_Buy
+2. Distance_Matrix
+3. Arrivals100, Arrivals125, Arrivals150, and Arrivals 175 (these can be found in the master branch of this repository)
+4. incoming_order_arranged
 
-### Variant Change
+
+### Dynamic Algorithm with Simulation
+To change the variant of the algorithm (total 12 variants possible) and to set the number of resource pool the following steps are followed:
+
+#### Variant Change
 In the "Dynamic Algorithm with Simulation.ipynb" file, to change the variant of the algorithm go to the comment: "Deciding the variation of the heuristic"
 
 For changing the sequencing variant we need to set "1" and "0" for the following two variables depending on which one we want to use and which one to turn of. "1" represents turning on and "0" represents turning off. In the uploaded version it is currently set as follows:
@@ -21,8 +31,11 @@ limit_to_one_insertion = 1
 
 no_update = 0  
 
-### Number of resources
+#### Number of resources
 To change the number of resources in the algorithm we need to look for the following codes right under the "Input Parameters -----> Need to Change for Design of Experiment" comment. In the uploaded version it is currently set as follows:
 num_cob = 6      
-num_ded = 1          
+num_ded = 1        
+
+### Output Files
+
 
